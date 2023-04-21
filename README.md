@@ -4,163 +4,167 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :heavy_check_mark:
+## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-01-unix-bash-e-shell-script)
-- [x] 1.3 - Fundamentos do Desenvolvimento Web
-- [x] 1.3 - Introdução - Unix & Shell
-- [x] 1.3 - Unix & Bash - Parte 1
-- [x] 1.4 - Unix & Bash - Parte 2
+##### Bloco 1: Unix, shell e Git
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-01-unix-bash-e-shell-script) -->
+- [x] 1.1 - Unix e Shell
+- [x] 1.2 - Git
+- [x] 1.3 - Git & Git
 
-##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-02-git-github-e-internet)
-- [x] 2.1 - Git & GitHub  - O que é e para que serve
-- [x] 2.2 - Git & GitHub - Entendendo os comandos
-- [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-03-introducao-a-html-e-css)
-- [x] 3.1 - Introdução - HTML & CSS
-- [x] 3.1 - HTML & CSS - Estruturas de página
-- [x] 3.2 - HTML & CSS - Primeiros passos em CSS
-- [x] 3.3 - HTML & CSS - Seletores e posicionamento
-- [x] 3.4 - HTML Semântico
-- [x] 3.5 - Projeto - Lessons Learned
+##### Bloco 2: Introdução à HTML & CSS
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-02-git-github-e-internet) -->
+- [ ] 2.1 - HTML & CSS - Estruturas de página
+- [ ] 2.2 - HTML & CSS - Primeiros passos em CSS
+- [ ] 2.3 - Internet - Entendendo como ela funciona
+- [ ] 2.4 - HTML Semântico
+- [ ] 2.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
-- [x] 4.1 - Introdução - JavaScript
-- [x] 4.1 - JavaScript - Primeiros passos
-- [x] 4.2 - JavaScript - Array e loop For
-- [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [x] 4.4 - JavaScript - Objetos e funções
-- [x] 4.5 - Projeto - Playground Functions
+##### Bloco 3: Introdução à JavaScript
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-03-introducao-a-html-e-css) -->
+- [ ] 3.1 - JavaScript - Primeiros passos
+- [ ] 3.2 - JavaScript - Arrays e loop for
+- [ ] 3.3 - JavaScript - Funções
+- [ ] 3.4 - JavaScript - Objetos
+- [ ] 3.5 - JavaScript ES6-let,const,arrow functions e template literals
+- [ ] 3.6 - Projeto - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
-- [x] 5.1 - JavaScript - DOM e seletores
-- [x] 5.2 - JavaScript - Trabalhando com elementos
-- [x] 5.3 - JavaScript - Eventos
-- [x] 5.4 - JavaScript - Web Storage
-- [x] 5.5 - Fundamentos - JavaScript - Projetos
-- [x] 5.5 - Projeto - Arte com Pixels
-- [x] 5.6 - Projeto - Lista de tarefas
-- [x] 5.7 - (Bônus) Projeto - Meme Generator
-- [x] 5.7 - (Bônus) Projeto - Adivinhe a Cor
-- [x] 5.7 - (Bônus) Projeto - Carta Misteriosa
+##### Bloco 4: JavaScript: DOM,Eventos e Web Storage
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao) -->
+- [ ] 4.1 - JavaScript - DOM e seletores
+- [ ] 4.2 - JavaScript - Trabalhando com elementos
+- [ ] 4.3 - JavaScript - Eventos
+- [ ] 4.4 - JavaScript - Wev Storage
+- [ ] 4.5 - Projeto - Arte com Pixels
+- [ ] 4.6 - Projeto - Bônus
 
-##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
-- [x] 6.1 - HTML & CSS - Forms
-- [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
-- [x] 6.3 - Introdução - CSS Flexbox
-- [x] 6.3 - CSS Flexbox - Parte 1
-- [x] 6.4 - CSS Flexbox - Parte 2
-- [x] 6.5 - CSS Responsivo - Mobile First
-- [x] 6.6 - Projeto - Página inicial do Facebook
+##### Bloco 5: HTML & CSS: Forms,Flexbox e Responsivo
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage) -->
+- [ ] 5.1 - HTML & CSS - Forms
+- [ ] 5.2 - Bibliotecas JavaScript e Frameworks CSS
+- [ ] 5.3 - CSS Flexbox - Parte 1
+- [ ] 5.4 - CSS Flexbox - Parte 2
+- [ ] 5.5 - CSS Responsivo - Mobile First
+- [ ] 5.6 - Projeto - Trybewarts
 
-##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
-- [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
-- [x] 7.2 - JavaScript ES6 - Objects
-- [x] 7.3 - Testes unitários em JavaScript
-- [x] 7.4 - Projeto - JavaScript Testes Unitários
+##### Bloco 6: Introdução a JavaScript ES6 e Testes Unitários
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo) -->
+- [ ] 6.1 - Fluxo de Exceções e manipulação de objetos
+- [ ] 6.2 - Primeiros passos em Jest
+- [ ] 6.3 - Matchers e cobertura de código
+- [ ] 6.4 - Projeto - JavaScript Testes  Unitários
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-08-high-order-functions-do-javascript-es6)
-- [x] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [x] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
-- [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [x] 8.5 - Projeto - Zoo functions
+##### Bloco 7: Higher Order Functions do JavaScript ES6
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios) -->
+- [ ] 7.1 - Introdução a Higher Order Functions
+- [ ] 7.2 - Higher Order Functions - sort e map
+- [ ] 7.3 - Higher Order Functions - filter e reduce
+- [ ] 7.4 - JavaScript ES6 - spread operator,rest parameters e object destructuring
+- [ ] 7.5 - JavaScript ES6 - Array destructuring,Default destructuring,Object property shorthand e default parameters
+- [ ] 7.6 - Projeto - Zoo functions
 
-##### Bloco 9: [JavaScript Assíncrono e Promises](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-09-javascript-assincrono-e-promises)
-- [x] 9.1 - JavaScript Assíncrono e Callbacks
-- [x] 9.2 - JavaScript Promises
-- [x] 9.3 - Projeto - Carrinho de Compras
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 10: [Testes automatizados com Jest](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-10-testes-automatizados-com-jest)
-- [x] 10.1 - Primeiros passos no Jest
-- [x] 10.2 - Jest - Testes Assíncronos
-- [x] 10.3 - Jest - Simulando comportamentos
-- [x] 10.4 - Projeto - Jest Assíncrono e Mocking
+##### Bloco 1: Introdução ao Frontend e JavaScript assíncrono
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-08-high-order-functions-do-javascript-es6) -->
+- [ ] 1.1 - Ambiente de desenvolvimento
+- [ ] 1.2 - JavaScript Assíncrono - Promises e fetch
+- [ ] 1.3 - Prática - Casa de câmbio
+- [ ] 1.4 - Async,await e testes assíncronos
+- [ ] 1.5 - Projeto - Carrinho de compras
 
-## Desenvolvimento Front-end :heavy_check_mark:
+##### Bloco 2: Introdução ao React
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-09-javascript-assincrono-e-promises) -->
+- [ ] 2.1 - 'Hello, world' no React
+- [ ] 2.2 - Componentes React
+- [ ] 2.3 - Projeto - Solar System
 
-##### Bloco 11: [Introdução à React](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-11-introducao-a-react)
-- [x] 11.1 - Introdução - Front-end
-- [x] 11.1 - Introdução - React
-- [x] 11.1 - 'Hello, world!' no React!
-- [x] 11.2 - Componentes React
-- [x] 11.3 - Projeto - Movie Cards Library
+##### Bloco 3: Componentes com Estado,Eventos e Formulários com React
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-10-testes-automatizados-com-jest) -->
+- [ ] 3.1 - Componentes com estado e eventos
+- [ ] 3.2 - Formulários no React
+- [ ] 3.3 - Projeto - Tryunfo
 
-##### Bloco 12: [Componentes com Estado, Eventos e Formulários com React](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-12-componentes-com-estado-eventos-e-formularios-com-react)
-- [x] 12.1 - Componentes com estado e eventos
-- [X] 12.2 - Formulários no React
-- [X] 12.3 - Projeto - Movie Cards Library Stateful
+##### Bloco 4: Ciclo de Vida de Componentes e React Router
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-11-introducao-a-react) -->
+- [ ] 4.1 - Ciclo de vida de componentes
+- [ ] 4.2 - React Router
+- [ ] 4.3 - Projeto - TrybeTunes
 
-##### Bloco 13: [Ciclo de Vida de Componentes e React Router](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-13-ciclo-de-vida-de-componentes-e-react-router)
-- [x] 13.1 - Ciclo de vida de componentes
-- [x] 13.2 - React Router
-- [x] 13.3 - Projeto - Movie Cards Library CRUD
+##### Bloco 5: Metodologias Ágeis
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-12-componentes-com-estado-eventos-e-formularios-com-react) -->
+- [ ] 5.1 - Metodologias ágeis
+- [ ] 5.2 - Projeto - Front-end Online Store
 
-##### Bloco 14: [Metodologias Ágeis](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-14-metodologias-ageis/dia-01-metodologias-ageis)
-- [x] 14.1 - Metodologias Ágeis
-- [x] 14.2 - Projeto - Frontend Online Store
+##### Bloco 6: Testes automatizados com React Testing Library
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-13-ciclo-de-vida-de-componentes-e-react-router) -->
+- [ ] 6.1 - RTL - Primeiros passos
+- [ ] 6.2 - RTL - Mocks e inputs
+- [ ] 6.3 - RTL - Testando React Router
+- [ ] 6.4 - Projeto - Testes em React
 
-##### Bloco 15: [Testes automatizados com React Testing Library](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-15-testes-automatizados-com-react-testing-library)
-- [x] 15.1 - RTL - Primeiros passos
-- [x] 15.2 - RTL - Mocks e Inputs
-- [x] 15.3 - RTL - Testando React Router
-- [x] 15.4 - Projeto - Testes em React
+##### Bloco 7: Gerenciamento de estado com Redux
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-14-metodologias-ageis/dia-01-metodologias-ageis) -->
+- [ ] 7.1 - Introdução ao Redux-O estado global da aplicação 
+- [ ] 7.2 - Usando o Redux no React
+- [ ] 7.3 - Usando o Redux no React - Prática
+- [ ] 7.4 - Usando o Redux no React - Actions Assíncronos
+- [ ] 7.5 - Testes em React - Redux
+- [ ] 7.6 - Projeto - Trybe Wallet
 
-##### Bloco 16: [Gerenciamento de estado com Redux](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-16-gerenciamento-de-estado-com-redux)
-- [x] 16.1 - Introdução ao Redux - O estado global da aplicação
-- [x] 16.2 - Usando o Redux no React
-- [x] 16.3 - Usando o Redux no React - Prática
-- [x] 16.4 - Usando o Redux no React - Actions Assíncronas
-- [x] 16.5 - Testes síncronos com React-Redux
-- [x] 16.6 - Projeto - Tabela com filtros de dados
+##### Bloco 8: Projeto Jogo de Trivia
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-15-testes-automatizados-com-react-testing-library) -->
+- [ ] 8.1 - Projeto - Jogo de Trivia
 
-##### Bloco 17: Projeto Jogo de Trivia
-- [x] 17.1 - Projeto - Jogo de Trivia
+##### Bloco 9: Context API e React Hooks
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-16-gerenciamento-de-estado-com-redux) -->
+- [ ] 9.1 - React Hooks - useStage e useEffect
+- [ ] 9.2 - Context API
+- [ ] 9.3 - Custom Hooks
+- [ ] 9.4 - Projeto - StarWars Datatable com Context API e Hooks
 
-##### Bloco 18: [Context API e React Hooks](https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-18-context-api-e-react-hooks)
-- [x] 18.1 - Context API do React
-- [x] 18.2 - React Hooks - useState e useContext
-- [x] 18.3 - React Hooks - useEffect e Hooks customizados
-- [x] 18.4 - Projeto - StarWars Datatable com Context API e Hooks
-
-##### Bloco 19: Projeto App de Receitas
-- [x] 19.1 - Projeto - App de Receitas
+##### Bloco 10: Projeto App de Receitas
+- [ ] 10.1 - Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: [Introdução à SQL](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-20-introducao-a-sql)
-- [x] 20.1 - Introdução - Back-end
-- [x] 20.1 - Introdução - Bancos de dados relacionais
-- [x] 20.1 - Banco de dados SQL
-- [x] 20.2 - Encontrando dados em um banco de dados
-- [x] 20.3 - Filtrando dados de forma específica
-- [x] 20.4 - Manipulando tabelas
-- [x] 20.5 - Projeto - All For One
+##### Bloco 1: Docker: Utilizando Containers 
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-20-introducao-a-sql) -->
+- [ ] 1.1 - Utilizando Containers - Docker
+- [ ] 1.2 - Manipulando imagens no Docker
+- [ ] 1.3 - Orquestrando  Containers com Docker Compose
+- [ ] 1.4 - Projeto - Docker Todo-List
 
-##### Bloco 21: [Funções SQL, Joins e Subqueries](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-21-funcoes-sql-joins-e-subqueries)
-- [x] 21.1 - Funções mais usadas no SQL
-- [x] 21.2 - Descomplicando JOINs e UNIONs
-- [x] 21.3 - Stored Routines & Subqueries
-- [x] 21.4 - Projeto - Vocabulary Booster
+##### Bloco 2: Introdução a SQL
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-21-funcoes-sql-joins-e-subqueries) -->
+- [ ] 2.1 - Banco de dados SQL
+- [ ] 2.2 - Encontrando dados em um banco de dados
+- [ ] 2.3 - Filtrando dados e forma específica
+- [ ] 2.4 - Manipulando tabelas
+- [ ] 2.5 - Projeto - All For One
 
-##### Bloco 22: [Normalização e Modelagem de Banco de Dados](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-22-normalizacao-e-modelagem-de-banco-de-dados)
-- [x] 22.1 - Transformando ideias em um modelo de banco de dados
-- [x] 22.2 - Normalização, Formas Normais e Dumps
-- [x] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [x] 22.4 - Projeto - One For All
+##### Bloco 3: Funções SQL,JOINs e Normalização
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-22-normalizacao-e-modelagem-de-banco-de-dados) -->
+- [ ] 3.1 - Funções mais usadas no SQL
+- [ ] 3.2 - Descomplicando JOINs
+- [ ] 3.3 - Transformando ideias em um modelo de banco de dados 
+- [ ] 3.4 - Aula ao vivo + Projeto - One For All
 
-##### Bloco 23: [Introdução ao MongoDB](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-23-introducao-ao-mongodb)
-- [x] 23.1 - Introdução - NoSQL
-- [x] 23.1 - MongoDB - Introdução
-- [x] 23.2 - Filter Operators
-- [x] 23.3 - Projeto - Data Flights
+##### Bloco 4: Introdução ao desenvolvimento Web com Node.js 
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-23-introducao-ao-mongodb) -->
+- [ ] 4.1 - Node.js:Runtime Assíncrono
+- [ ] 4.2 - Node.js:API REST com Experess
+- [ ] 4.4 - Node.js:Testes de Integração
+- [ ] 4.5 - Node.js:Express e Middlewares
+- [ ] 4.5 - NOde.js:Express e MySQL
 
-##### Bloco 24: [MongoDB: Updates Simples e Complexos](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-24-mongodb-updates-simples-e-complexos)
-- [x] 24.1 - Updates Simples
-- [x] 24.2 - Updates Complexos - Arrays - Parte 1
-- [x] 24.3 - Updates Complexos - Arrays - Parte 2
-- [x] 24.4 - Projeto - Commerce
+##### Bloco 5: Arquitetura de Software: Model,Service e Controller
+<!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-24-mongodb-updates-simples-e-complexos) -->
+- [ ] 5.1 - Arquitetura de Softwere:Camada Model
+- [ ] 5.2 - Arquiterura de Softwere:Camada Service
+- [ ] 5.3 - Arquitetura de Softwere:Camada Controller
+- [ ] 5.4 - Projeto - Store Manager
 
 ##### Bloco 25: [MongoDB: Aggregation Framework](https://github.com/paulohbsimoes/trybe-exercises/tree/master/03-back-end/bloco-25-mongodb-aggregation-framework)
 - [x] 25.1 - Aggregation Framework - Parte 1
