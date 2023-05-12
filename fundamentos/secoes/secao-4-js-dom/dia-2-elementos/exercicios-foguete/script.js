@@ -4,7 +4,7 @@ const parente = comoEsta.parentElement
 parente.style.color = 'blue'
 
 const primeiroFilhoDoFIlho = comoEsta.firstElementChild
-primeiroFilho.innerText = 'First child of child';
+primeiroFilhoDoFIlho.innerText = 'First child of child';
 
 const primeiroFilho = parente.firstElementChild
 
