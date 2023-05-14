@@ -58,18 +58,37 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
-    const paiTag = document.querySelector('body')
-    const tagFilho = document.createElement('h1')
-    tagFilho.innerText = 'TrybeTrip - Agência de Viagens'
-    paiTag.appendChild(tagFilho)
+    const paiTag = document.querySelector('body');
+    const tagFilho = document.createElement('h1');
+    tagFilho.innerText = 'TrybeTrip - Agência de Viagens';
+    paiTag.appendChild(tagFilho);
 
-    const mainTag = document.createElement('main')
-    mainTag.id = 'main-content'
-    paiTag.appendChild(mainTag)
+    const mainTag = document.createElement('main');
+    mainTag.id = 'main-content';
+    paiTag.appendChild(mainTag);
 
-    const sectionTag = document.createElement('section')
-    sectionTag.id = 'left-content'
-    mainTag.appendChild(sectionTag)
+    const sectionTag = document.createElement('section');
+    sectionTag.id = 'center-content';
+    mainTag.appendChild(sectionTag);
+
+    const tagP = document.createElement('p');
+    tagP.innerText = 'Viaje com segurança na TrybeTrip'
+    sectionTag.appendChild(tagP)
+
+    const sectionTag2 = document.createElement('section');
+    sectionTag2.id = 'left-content'
+    mainTag.appendChild(sectionTag2)
+
+    const sectionTag3 = document.createElement('section');
+    sectionTag3.id = 'right-content'
+    mainTag.appendChild(sectionTag3)
+
+    const imagem = document.createElement('img');
+    imagem.src = 'https://picsum.photos/200';
+    imagem.className = 'small-image'
+    sectionTag2.appendChild(imagem)
+
+
     </script>
   </body>
 </html>
