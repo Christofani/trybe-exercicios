@@ -64,11 +64,11 @@
     paiTag.appendChild(tagFilho);
 
     const mainTag = document.createElement('main');
-    mainTag.id = 'main-content';
+    mainTag.className = 'main-content';
     paiTag.appendChild(mainTag);
 
     const sectionTag = document.createElement('section');
-    sectionTag.id = 'center-content';
+    sectionTag.className = 'center-content';
     mainTag.appendChild(sectionTag);
 
     const tagP = document.createElement('p');
@@ -76,11 +76,11 @@
     sectionTag.appendChild(tagP);
 
     const sectionTag2 = document.createElement('section');
-    sectionTag2.id = 'left-content';
+    sectionTag2.className = 'left-content';
     mainTag.appendChild(sectionTag2);
 
     const sectionTag3 = document.createElement('section');
-    sectionTag3.id = 'right-content';
+    sectionTag3.className = 'right-content';
     mainTag.appendChild(sectionTag3);
 
     const imagem = document.createElement('img');
@@ -104,6 +104,25 @@
         mainTag.appendChild(tagH3)
     }
 
+    const titulo = document.querySelector('h1');
+    titulo.className = 'title'
+
+    const colClasse = document.querySelectorAll('h3')
+    for (let index = 0; index < 3; index += 1) {
+        colClasse[index].className = 'description';
+    }
+
+    const removSection = document.querySelector('.left-content');
+    mainTag.removeChild(removSection);
+
+    const marginsection3 = document.querySelector('.right-content');
+    marginsection3.style.marginRight = 'auto';
+
+    const mudaCor = document.querySelector('.center-content');
+    mudaCor.parentNode.style.backgroundColor = 'green';
+
+    listaUl.lastChild.remove();
+    listaUl.lastChild.remove();
     </script>
   </body>
 </html>
