@@ -98,4 +98,3 @@ window.onload = () => {
   
     initialize() // Chama a função de inicialização ao carregar a página
   }
-  
