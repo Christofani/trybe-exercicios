@@ -15,33 +15,33 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Seção 2: Introdução à HTML & CSS
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-02-git-github-e-internet) -->
-- [ ] 2.1 - HTML & CSS - Estruturas de página
-- [ ] 2.2 - HTML & CSS - Primeiros passos em CSS
-- [ ] 2.3 - Internet - Entendendo como ela funciona
-- [ ] 2.4 - HTML Semântico
-- [ ] 2.5 - Projeto - Lessons Learned
+- [x] 2.1 - HTML & CSS - Estruturas de página
+- [x] 2.2 - HTML & CSS - Primeiros passos em CSS
+- [x] 2.3 - Internet - Entendendo como ela funciona
+- [x] 2.4 - HTML Semântico
+- [x] 2.5 - Projeto - Lessons Learned
 
 ##### Seção 3: Introdução à JavaScript
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-03-introducao-a-html-e-css) -->
-- [ ] 3.1 - JavaScript - Primeiros passos
-- [ ] 3.2 - JavaScript - Arrays e loop for
-- [ ] 3.3 - JavaScript - Funções
-- [ ] 3.4 - JavaScript - Objetos
-- [ ] 3.5 - JavaScript ES6-let,const,arrow functions e template literals
-- [ ] 3.6 - Projeto - Playground Functions
+- [x] 3.1 - JavaScript - Primeiros passos
+- [x] 3.2 - JavaScript - Arrays e loop for
+- [x] 3.3 - JavaScript - Funções
+- [x] 3.4 - JavaScript - Objetos
+- [x] 3.5 - JavaScript ES6-let,const,arrow functions e template literals
+- [x] 3.6 - Projeto - Playground Functions
 
 ##### Seção 4: JavaScript: DOM,Eventos e Web Storage
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao) -->
-- [ ] 4.1 - JavaScript - DOM e seletores
-- [ ] 4.2 - JavaScript - Trabalhando com elementos
-- [ ] 4.3 - JavaScript - Eventos
-- [ ] 4.4 - JavaScript - Wev Storage
-- [ ] 4.5 - Projeto - Arte com Pixels
-- [ ] 4.6 - Projeto - Bônus
+- [x] 4.1 - JavaScript - DOM e seletores
+- [x] 4.2 - JavaScript - Trabalhando com elementos
+- [x] 4.3 - JavaScript - Eventos
+- [x] 4.4 - JavaScript - Wev Storage
+- [x] 4.5 - Projeto - Arte com Pixels
+- [x] 4.6 - Projeto - Bônus
 
 ##### Seção 5: HTML & CSS: Forms,Flexbox e Responsivo
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage) -->
-- [ ] 5.1 - HTML & CSS - Forms
+- [x] 5.1 - HTML & CSS - Forms
 - [ ] 5.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 5.3 - CSS Flexbox - Parte 1
 - [ ] 5.4 - CSS Flexbox - Parte 2
