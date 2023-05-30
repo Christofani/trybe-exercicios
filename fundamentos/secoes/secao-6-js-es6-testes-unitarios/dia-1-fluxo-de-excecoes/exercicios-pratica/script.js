@@ -149,3 +149,5 @@ const findPeopleByState = (state) => {
   } catch (error) {
     return error.message;
   }
+};
+
