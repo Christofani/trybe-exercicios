@@ -74,10 +74,28 @@ const mapString = (objectMap, string) => {
     return listaDeTecnologia;
 };
 
+const hydrate = (string) => {
+  const stringSplit = string.split('');
+  let contadorDeCopos = 0;
+  for (let index = 0; index < stringSplit.length; index += 1) {
+    const char = parseInt(stringSplit[index]);
+    if (char) {
+      contadorDeCopos += char;
+    }
+  }
+  let copoDeVidro = 'copo'
+  if (contadorDeCopos > 1) {
+    copoDeVidro = 'copos';
+  }
+
+return `${contadorDeCopos} ${copoDeVidro} de água`;
+};
+
 module.exports = {
     removeItem,
     myFizzBuzz,
     encode,
     decode,
-    techList
+    techList,
+    hydrate
  };
