@@ -61,9 +61,23 @@ const mapString = (objectMap, string) => {
     return mapString(map, string);
   }
 
+  const techList = (array, name) => {
+    if (array.length === 0) return 'Vazio!';
+    const arrayEmOrdem = array.sort();
+    const listaDeTecnologia = [];
+    for (let index = 0; index < arrayEmOrdem.length; index += 1) {
+      listaDeTecnologia.push({
+        tech: arrayEmOrdem[index],
+        name: name,
+      });
+    }
+    return listaDeTecnologia;
+};
+
 module.exports = {
     removeItem,
     myFizzBuzz,
     encode,
-    decode
+    decode,
+    techList
  };

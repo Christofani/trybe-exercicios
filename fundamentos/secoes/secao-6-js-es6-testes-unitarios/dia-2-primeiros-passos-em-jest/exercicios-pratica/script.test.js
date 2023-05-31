@@ -1,4 +1,4 @@
-const {removeItem, myFizzBuzz, encode , decode} = require('./script');
+const {removeItem, myFizzBuzz, encode , decode, techList} = require('./script');
 
 describe('testa a função removeItem', () => {
     test('Deve retornar o array removendo o item correto.', () => {
@@ -44,5 +44,41 @@ describe('teste as funções encode e decode', () => {
     test('As funções encode e decode são definidas', () => {
         expect(encode).toBeDefined();
         expect(decode).toBeDefined();
-    })
+    });
 });
+
+describe('Testa a função techList', () => {
+    it('Testa se a função techList é definida', () => {
+      expect(techList).toBeDefined();
+    });
+    it('Testa se techList é uma função', () => {
+      expect(typeof techList).toBe('function');
+    });
+    it('Lista com 5 tecnologias deve retornar uma lista de objetos ordenados', () => {
+      expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas')).toEqual([
+        {
+          tech: 'CSS',
+          name: 'Lucas'
+        },
+        {
+          tech: 'HTML',
+          name: 'Lucas'
+        },
+        {
+          tech: 'JavaScript',
+          name: 'Lucas'
+        },
+        {
+          tech: 'Jest',
+          name: 'Lucas'
+        },
+        {
+          tech: 'React',
+          name: 'Lucas'
+        }
+      ]);
+    });
+    it('Lista com 0 tecnologia deve retornar uma mensagem de erro "Vazio!"', () => {
+      expect(techList([], 'Lucas')).toBe('Vazio!');
+    });
+  });
