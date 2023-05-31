@@ -20,8 +20,8 @@ describe('testa a função myFizzBuzz', () => {
 
 describe('teste as funções encode e decode', () => {
     test('Verifique se encode e decode são funções', () => {
-        expect(typeof encode).toBe('function')
-        expect(typeof decode).toBe('function')
+        expect(typeof encode).toBe('function');
+        expect(typeof decode).toBe('function');
     });
     test('Em encode teste se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4, 5, respectivamente.', () => {
         expect(encode('ana')).toEqual('1n1');
@@ -37,4 +37,12 @@ describe('teste as funções encode e decode', () => {
         expect(decode('3v3n3s')).toEqual('ivinis');
         expect(decode('h5r5s')).toEqual('hurus');
     });
+    test('Teste se a string que é retornada tem o mesmo número de chars que a string passada como paramêtro', () => {
+        expect(encode('trybe').length).toEqual(5);
+        expect(decode('trybe').length).toEqual(5);
+    })
+    test('As funções encode e decode são definidas', () => {
+        expect(encode).toBeDefined();
+        expect(decode).toBeDefined();
+    })
 });
