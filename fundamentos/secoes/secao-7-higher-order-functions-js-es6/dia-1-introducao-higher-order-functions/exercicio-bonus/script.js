@@ -57,6 +57,23 @@ const gameActions = {
         const danoGuerreiro = ataqueGuerreiro(warrior);
         dragon.healthPoints -= danoGuerreiro;
         warrior.damage = danoGuerreiro;
-    }
+    },
+    magico: (ataquemagico) => {
+        const danoMagico = ataquemagico(mage);
+        const magoDamage = danoMagico.danoCausado;
+        mage.mana -= danoMagico.manaGasta
+        dragon.healthPoints -= magoDamage;
+        mage.damage = magoDamage;
+    },
+    dragao: (ataquedragao) => {
+        const danoDragao = ataquedragao(dragon);
+        warrior.healthPoints -= danoDragao;
+        mage.healthPoints -= danoDragao;
+        dragon.damage = danoDragao;
+    },
+    resultadoDoGame: () => battleMembers
 };
-gameActions.guerreiro(ataqueGuerreiro);
+gameActions.guerreiro(danoWarrior);
+gameActions.magico(danoMago);
+gameActions.dragao(danoDragao);
+console.log(gameActions.resultadoDoGame());
