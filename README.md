@@ -4,7 +4,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Seção 1: Unix, shell e Git
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-01-unix-bash-e-shell-script) -->
@@ -42,27 +42,27 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Seção 5: HTML & CSS: Forms,Flexbox e Responsivo
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage) -->
 - [x] 5.1 - HTML & CSS - Forms
-- [ ] 5.2 - Bibliotecas JavaScript e Frameworks CSS
-- [ ] 5.3 - CSS Flexbox - Parte 1
-- [ ] 5.4 - CSS Flexbox - Parte 2
-- [ ] 5.5 - CSS Responsivo - Mobile First
-- [ ] 5.6 - Projeto - Trybewarts
+- [x] 5.2 - Bibliotecas JavaScript e Frameworks CSS
+- [x] 5.3 - CSS Flexbox - Parte 1
+- [x] 5.4 - CSS Flexbox - Parte 2
+- [x] 5.5 - CSS Responsivo - Mobile First
+- [x] 5.6 - Projeto - Trybewarts
 
 ##### Seção 6: Introdução a JavaScript ES6 e Testes Unitários
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo) -->
-- [ ] 6.1 - Fluxo de Exceções e manipulação de objetos
-- [ ] 6.2 - Primeiros passos em Jest
-- [ ] 6.3 - Matchers e cobertura de código
-- [ ] 6.4 - Projeto - JavaScript Testes  Unitários
+- [x] 6.1 - Fluxo de Exceções e manipulação de objetos
+- [x] 6.2 - Primeiros passos em Jest
+- [x] 6.3 - Matchers e cobertura de código
+- [x] 6.4 - Projeto - JavaScript Testes  Unitários
 
 ##### Seção 7: Higher Order Functions do JavaScript ES6
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios) -->
-- [ ] 7.1 - Introdução a Higher Order Functions
-- [ ] 7.2 - Higher Order Functions - sort e map
-- [ ] 7.3 - Higher Order Functions - filter e reduce
-- [ ] 7.4 - JavaScript ES6 - spread operator,rest parameters e object destructuring
-- [ ] 7.5 - JavaScript ES6 - Array destructuring,Default destructuring,Object property shorthand e default parameters
-- [ ] 7.6 - Projeto - Zoo functions
+- [x] 7.1 - Introdução a Higher Order Functions
+- [x] 7.2 - Higher Order Functions - sort e map
+- [x] 7.3 - Higher Order Functions - filter e reduce
+- [x] 7.4 - JavaScript ES6 - spread operator,rest parameters e object destructuring
+- [x] 7.5 - JavaScript ES6 - Array destructuring,Default destructuring,Object property shorthand e default parameters
+- [x] 7.6 - Projeto - Zoo functions
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
