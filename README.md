@@ -68,7 +68,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Seção 1: Introdução ao Frontend e JavaScript assíncrono
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-08-high-order-functions-do-javascript-es6) -->
-- [ ] 1.1 - Ambiente de desenvolvimento
+- [x] 1.1 - Ambiente de desenvolvimento
 - [ ] 1.2 - JavaScript Assíncrono - Promises e fetch
 - [ ] 1.3 - Prática - Casa de câmbio
 - [ ] 1.4 - Async,await e testes assíncronos
