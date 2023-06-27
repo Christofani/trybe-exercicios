@@ -9,7 +9,8 @@ export async function handleClick() {
 
   try {
     const adressData = await getAddressFromCep(cep);
-    document.querySelector('pre').innerHTML = JSON.stringify(adressData);
+   const retorno = document.querySelector('pre').innerHTML = JSON.stringify(adressData);
+   return retorno;
   } catch (error) {
     return Swal.fire({
       icon:'Error',
