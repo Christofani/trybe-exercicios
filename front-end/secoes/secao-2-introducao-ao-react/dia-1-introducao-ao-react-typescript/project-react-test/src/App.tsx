@@ -1,10 +1,12 @@
-import Header from './components/header';
+import Greeting from './components/Greeting';
+import LuckyNumbers from './components/LuckyNumbers1';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Header />
+      <Greeting />
+      <LuckyNumbers />
     </div>
   );
 }
