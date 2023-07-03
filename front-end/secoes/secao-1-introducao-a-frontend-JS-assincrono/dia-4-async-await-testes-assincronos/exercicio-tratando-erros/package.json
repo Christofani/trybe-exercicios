@@ -1,0 +1,21 @@
+{
+  "name": "exercicio-tratando-erros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite ",
+    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.12",
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
