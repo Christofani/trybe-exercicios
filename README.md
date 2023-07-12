@@ -69,10 +69,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Seção 1: Introdução ao Frontend e JavaScript assíncrono
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-08-high-order-functions-do-javascript-es6) -->
 - [x] 1.1 - Ambiente de desenvolvimento
-- [ ] 1.2 - JavaScript Assíncrono - Promises e fetch
-- [ ] 1.3 - Prática - Casa de câmbio
-- [ ] 1.4 - Async,await e testes assíncronos
-- [ ] 1.5 - Projeto - Carrinho de compras
+- [x] 1.2 - JavaScript Assíncrono - Promises e fetch
+- [x] 1.3 - Prática - Casa de câmbio
+- [x] 1.4 - Async,await e testes assíncronos
+- [x] 1.5 - Projeto - Carrinho de compras
 
 ##### Seção 2: Introdução ao React
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-09-javascript-assincrono-e-promises) -->
