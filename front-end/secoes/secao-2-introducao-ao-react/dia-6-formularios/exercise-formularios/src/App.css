@@ -1,0 +1,31 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(44, 43, 43);
+  color: white;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  color: black;
+}
+
+button {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
