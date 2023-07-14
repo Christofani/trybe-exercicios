@@ -4,43 +4,69 @@ import './App.css';
 
 function App() {
   function resetForm() {
-    setName("");
-    setEmail("");
-    setSchooling("Médio");
-    setResume("");
+    setFormInfo({
+      name: '',
+      email: '',
+      schooling: 'Médio',
+      resume: '',
+    })
   }
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    alert(`Nome ${name}\nemail: ${email}\nEscolaridade ${schooling}\nExperiências: ${resume}`)
-    resetForm();
+    if (terms) {
+      resetForm();
+      setterms(false);
+      setError(false);
+      alert(
+        `Nome: ${formInfo.name}\nEmail: ${formInfo.email}\nEscolaridade: ${formInfo.schooling}\nExperiências: ${formInfo.resume}`
+      );
+    } else {
+      setError(true);
+    }
   }
-
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [schooling, setSchooling] = useState('Médio');
-  const [resume, setResume] = useState('');
+  const [terms, setterms] = useState(false);
+  const [error, setError] = useState(false)
+  const [formInfo, setFormInfo] = useState({
+    name: '',
+    email: '',
+    schooling: 'Médio',
+    resume: '',
+  })
+  
+  function handleChance(event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) {
+    const { name, value } = event.target;
+    setFormInfo({
+      ...formInfo, 
+      [name]: value,
+    })
+  }
   return (
     <>
     <form className='form-container' onSubmit={(event) => handleSubmit(event)}>
       <label>
         Nome:
         <input
-        value={name}
-        onChange={ ({target}) => setName(target.value) }
+        name="name"
+        required
+        value={formInfo.name}
+        onChange={handleChance}
          />
       </label>
       <label>
         E-mail:
         <input 
-        value={email}
-        onChange={ ({target}) => setEmail(target.value) }
+        name="email"
+        required
+        value={formInfo.email}
+        onChange={handleChance}
         />
       </label>
       <label>
         Escolaridade 
         <select
-        value={schooling}
-        onChange={ ({target}) => setSchooling(target.value) }
+        name="schooling"
+        value={formInfo.schooling}
+        onChange={ handleChance }
         >
           <option value="Médio">Médio</option>
           <option value="Superior">Superior</option>
@@ -50,12 +76,24 @@ function App() {
       <label className="label-container">
         Resumo das Experiências
         <textarea
-        value={resume}
-        onChange={ ({target}) => setResume(target.value) }
+        name="resume"
+        value={formInfo.resume}
+        onChange={handleChance}
          />
+      </label>
+      <label>
+        <input 
+        type="checkbox"
+        checked={terms}
+        onChange={ () => setterms((prevTerms) => !prevTerms) }
+        />
+        Aceito as condições
       </label>
       <button>Enviar</button>
     </form>
+    {error && (
+      <h4 className="message-error">Você precisa aceitar os termos e condições para poder enviar o currículo!</h4>
+    )}
     </>
   )
 }
