@@ -1,13 +1,29 @@
-import { Link } from "react-router-dom";
-import './coffeList.css';
+import { useNavigate } from 'react-router-dom';
+import { coffeeList } from '../../data';
+
+import './coffee-list.css';
 
 function CoffeeList() {
+  const navigate = useNavigate();
+
   return (
     <div className="list-page">
-      <h1>CoffeList page</h1>
-      <Link to="/">
-         <button className="button-coffee">Voltar</button>
-      </Link>
+      <h1>Nossos cafés</h1>
+      <hr />
+      <main>
+        {coffeeList.map((coffee) => (
+          <button
+            className="coffee-card"
+            style={{
+              backgroundImage: `url(${coffee.image})`,
+              backgroundSize: 'cover',
+            }}
+            onClick={() => navigate(`/coffees/${coffee.slug}`)}
+          >
+            <h3>{coffee.title}</h3>
+          </button>
+        ))}
+      </main>
     </div>
   );
 }
