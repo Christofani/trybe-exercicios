@@ -1,20 +1,13 @@
-// src/App.test.tsx
+// /src/App.test.tsx
 
-import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
-
+import { screen } from '@testing-library/react';
+import { renderWithRouter } from '../utils/renderWithRouter';
 import App from '../App';
-import { BrowserRouter } from 'react-router-dom';
 
-it('Renderiza texto da página inicial', async () => {
-  render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  );
-  expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
-
-  const AboutLink = screen.getByRole('link', { name: /Sobre/i });
-  await userEvent.click(AboutLink);
+it('Renderiza página inicial', async() => {
+  const { user } = renderWithRouter(<App />, { route: '/about' });
   expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
-})
+  const linkHome = screen.getByRole('link', { name: /Início/i });
+  await user.click(linkHome);
+  expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
+});
