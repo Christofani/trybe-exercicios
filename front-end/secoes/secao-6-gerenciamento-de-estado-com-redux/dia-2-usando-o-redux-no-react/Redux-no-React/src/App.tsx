@@ -3,8 +3,10 @@ import './App.css'
 import { actionCreator,clickCounter} from './Redux/actions';
 
 type RootState = {
-  clicks: number,
-  count: number
+  counterReducer: {
+    clicks: number,
+    count: number
+  }
 }
 
 function App() {
@@ -19,9 +21,9 @@ function handleClick(count = 1)  {
     <main>
   <div className="counter-container">
      <h1>Contador</h1>
-      <h2>{rootState.count}</h2>
+      <h2>{rootState.counterReducer.count}</h2>
       <h1>Clicks</h1>
-      <h2>{rootState.clicks}</h2>
+      <h2>{rootState.counterReducer.clicks}</h2>
   </div>
   <div className="button-container">
       <button onClick={() => handleClick()}>Incrementa 1</button>
