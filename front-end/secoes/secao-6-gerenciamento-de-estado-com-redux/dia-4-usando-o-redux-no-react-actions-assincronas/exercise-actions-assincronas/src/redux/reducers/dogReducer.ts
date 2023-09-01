@@ -1,6 +1,7 @@
+import { ReduxState } from '../../types';
 import {REQUEST_STARTED, REQUEST_SUCCESSFUL, REQUEST_FAILED} from '../actions/index';
 
-const initialState = {
+const initialState: ReduxState = {
   isFetching: false,
   imageURL: '',
   errorMessage: '',
@@ -36,7 +37,8 @@ const dogReducer = (state = initialState, action: ActionType) => {
         errorMessage: action.payload,
         imageURL: '',
       };
-      default: return state;
+      default: 
+      return state;
   }
 }
 export default dogReducer;
