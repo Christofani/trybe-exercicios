@@ -1,0 +1,11 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
