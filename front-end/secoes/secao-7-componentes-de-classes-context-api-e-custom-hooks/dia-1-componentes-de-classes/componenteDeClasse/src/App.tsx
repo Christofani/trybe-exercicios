@@ -1,17 +1,30 @@
 import React from 'react';
-import Title from './components/Title';
-import './App.css';
 
-class App  extends React.Component  {
-  handleClick = () => {
-    alert('Clicou')
+class App extends React.Component {
+  state = {
+    count: 1,
+  };
+
+  componentDidMount() {
+    console.log('Componente foi montado');
   }
+
+  componentDidUpdate() {
+    console.log('Componente atualizado');
+  }
+
   render() {
+    const { count } = this.state;
+
     return (
-      <div className='App'>
-         <Title titleMessage='Hello World!' />
+      <div>
+        <h1>Contador</h1>
+
+        <button onClick={() => this.setState({ count: count + 1 })}>
+          {count}
+        </button>
       </div>
-    )
+    );
   }
 }
 
