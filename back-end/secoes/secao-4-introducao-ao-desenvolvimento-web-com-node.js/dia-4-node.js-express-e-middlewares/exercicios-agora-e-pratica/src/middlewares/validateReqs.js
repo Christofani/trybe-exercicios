@@ -26,6 +26,11 @@ const validateDescription = (req, res, next) => {
   next();
 }
 
+const valideUser = (req, res, next) => {
+  const {firstName, email ,phone ,password } = req.body;
+  //Terminar a lógica .
+}
+
 module.exports = {
   validateDescription,
   validateReqs,
