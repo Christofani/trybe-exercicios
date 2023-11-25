@@ -1,10 +1,10 @@
-const data = require('moment');
+const generateToken = require('../../utils/generateToken');
 
 const validateReqs = (req, res, next) => {
   const { name ,price } = req.body;
   if(!name) return res.status(400).json({message : 'O campo nome é obrigatório.'});
   if(name.length < 4) return res.status(400).json({ "message": "O campo name deve ter pelo menos 4 caracteres" });
-  if(!price) return res.status(400).json({ "message": "O campo price é obrigatório" });
+  if(!Number(price)) return res.status(400).json({ "message": "O campo price é obrigatório" });
   if(Number(price) < 0) res.status(400).json({ "message": "O campo price deve ser um número maior ou igual a zero" });
   next();
 };
@@ -28,10 +28,16 @@ const validateDescription = (req, res, next) => {
 
 const valideUser = (req, res, next) => {
   const {firstName, email ,phone ,password } = req.body;
-  //Terminar a lógica .
+  if([firstName, email, phone, password].includes(undefined)) {
+    return res.status(401).json({ Message : "Campos ausentes!"})
+  }
+  const token = generateToken();
+  res.status(200).json({ token });
+  return next();
 }
 
 module.exports = {
   validateDescription,
   validateReqs,
+  valideUser,
 };

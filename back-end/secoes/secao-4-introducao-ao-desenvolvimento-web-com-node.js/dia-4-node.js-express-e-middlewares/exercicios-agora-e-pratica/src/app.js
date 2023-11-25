@@ -1,18 +1,16 @@
 const express = require('express');
-const {validateReqs, validateDescription} = require('./middlewares/validateReqs');
+const {validateReqs, validateDescription, valideUser} = require('./middlewares/validateReqs');
+const auth = require('./middlewares/auth');
 
 const app = express();
 
 app.use(express.json());
 
-app.post('/activities',validateReqs, validateDescription, (req, res) => {
+app.post('/activities', auth ,validateReqs, validateDescription, (req, res) => {
   const newActivate = { ...req.body }
-  res.status(200).json({ "message": "Atividade cadastrada com sucesso", newActivate})
+ return res.status(201).json({ "message": "Atividade cadastrada com sucesso", newActivate})
 });
 
-app.post('/signup', (req, res) => {
-  const newUser = { ...req.body }
-  res.status(200).json({ "message" : "Usuário cadastrado com sucesso!"})
-})
+app.post('/signup',valideUser)
 
 module.exports = app;
