@@ -6,7 +6,7 @@ const insert = (person) => conn.execute(
   [person.firstName, person.lastName, person.email, person.phone],
 );
 
-const findAll = () => conn.execute('SELECT * FROM People');
+const findAll = () => conn.execute('SELECT * FROM people');
 const findById = (id) => conn.execute('SELECT * FROM people WHERE id = ?', [id]);
 
 const update = (person , id) => conn.execute(

@@ -1,10 +1,8 @@
+require('dotenv').config();
 const app = require('./app');
-const connection = require('../src/db/connection')
 const PORT = 3003;
 
 app.listen(PORT, async () => {
   console.log(`API TrybeCash está sendo executada na porta ${PORT}`);
-  const [result] = await connection.execute('SELECT 1')
-  if(result)  console.log('MySQL Connection ok!');
-
+  console.log(`Valor da variável de ambiente $USER: ${process.env.USER}`);
 });
