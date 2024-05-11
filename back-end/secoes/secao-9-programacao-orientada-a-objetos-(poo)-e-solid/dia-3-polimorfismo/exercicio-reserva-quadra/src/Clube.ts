@@ -14,3 +14,5 @@ class Clube <T> {
 }
 
 export default Clube;
+
+//quadra tem que ser do tipo T
