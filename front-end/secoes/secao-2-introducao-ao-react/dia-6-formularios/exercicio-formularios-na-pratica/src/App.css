@@ -1,0 +1,70 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(44, 43, 43);
+  color: white;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  height: 100vh;
+  justify-content: center;
+  padding: 10px;
+}
+
+input,
+textarea {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 15px;
+  color: black;
+}
+
+.row {
+  display: flex;
+}
+
+select {
+  background-color: lightgray;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  padding: 5px;
+  margin: 10px;
+}
+
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 200px;
+}
+
+button {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+}
+
+h4 {
+  color: white;
+}
+
+.message-error {
+  color: red;
+  border:1px solid red ;
+  padding: 10px;
+}
