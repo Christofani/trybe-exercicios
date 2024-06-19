@@ -111,7 +111,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 7.3 - Usando o Redux no React - Prática
 - [x] 7.4 - Usando o Redux no React - Actions Assíncronos
 - [x] 7.5 - Testes em React - Redux
-- [ ] 7.6 - Projeto - Trybe Wallet
+- [x] 7.6 - Projeto - Trybe Wallet
 
 ##### Seção 8: Projeto Jogo de Trivia
 <!-- (https://github.com/paulohbsimoes/trybe-exercises/tree/master/02-front-end/bloco-15-testes-automatizados-com-react-testing-library) -->
@@ -202,16 +202,16 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Seção 1: Introdução a Python
-- [ ] 1.1 - Aprendendo Python
-- [ ] 2.2 - Entrada e Saída de Dados com Testes
-- [ ] 3.3 - P.O.O em Python
-- [ ] 3.4 - Project Job Insights
+- [x] 1.1 - Aprendendo Python
+- [x] 2.2 - Entrada e Saída de Dados com Testes
+- [x] 3.3 - P.O.O em Python
+- [x] 3.4 - Project Job Insights
 
 ##### Seção 2: Algoritmos
-- [ ] 2.1 - Complexidade de Algoritmos
-- [ ] 2.2 - Recursividade e Estratégias para Soluções de Problemas
-- [ ] 2.3 - Algoritmos de ordenação e busca
-- [ ] 2.4 - Project Algoritmos
+- [x] 2.1 - Complexidade de Algoritmos
+- [x] 2.2 - Recursividade e Estratégias para Soluções de Problemas
+- [x] 2.3 - Algoritmos de ordenação e busca
+- [x] 2.4 - Project Algoritmos
 
 ##### Seção 3: Estrutura de Dados 1: Listas Lineares
 - [ ] 3.1 - Arrays
