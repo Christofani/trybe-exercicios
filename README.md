@@ -199,7 +199,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Seção 10: Projeto App de Delivery
 - [x] 13.1 - Projeto - App de Delivery
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :heavy_check_mark:
 
 ##### Seção 1: Introdução a Python
 - [x] 1.1 - Aprendendo Python
@@ -214,12 +214,12 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 2.4 - Project Algoritmos
 
 ##### Seção 3: Estrutura de Dados 1: Listas Lineares
-- [ ] 3.1 - Arrays
-- [ ] 3.2 - Nó e Listas Encadeadas
-- [ ] 3.3 - Pilhas e Filas
-- [ ] 3.4 - Project TING - Trybe Is Not Google
+- [x] 3.1 - Arrays
+- [x] 3.2 - Nó e Listas Encadeadas
+- [x] 3.3 - Pilhas e Filas
+- [x] 3.4 - Project TING - Trybe Is Not Google
 
 ##### Seção 4: Estrutura de Dados 2: Hashmaps e Sets
-- [ ] 4.1 - Hashmap e Dict
-- [ ] 4.2 - Set
-- [ ] 4.3 - Project Restaurant Orders
+- [x] 4.1 - Hashmap e Dict
+- [x] 4.2 - Set
+- [x] 4.3 - Project Restaurant Orders
